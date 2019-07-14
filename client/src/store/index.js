@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 //import logger from "redux-logger";
-import rootReducer from "../reducers";
+import rootReducer from "../reducers/index";
 const state = {
     aa: 5,
     apple: 100
